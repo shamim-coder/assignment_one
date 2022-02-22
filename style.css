@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+img {
+    width: 100%;
+}
+.full-width {
+    width: 80%;
+    margin: auto;
+}
+.half-width {
+    width: 50%;
+}
+.section-inline {
+    display: flex;
+    align-items: center;
+}
+.main-title h1 {
+    font-family: 'Yeseva One', cursive;
+}
+
+.feature-bd-cyan {
+    background-color: #4F9DA6;
+}
+
+footer {
+    text-align: center;
+}
+footer h2 {
+    font-family: 'Lobster', cursive;
+}
+footer p {
+    font-family: 'Manrope', sans-serif;
+}
