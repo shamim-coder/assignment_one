@@ -80,8 +80,14 @@ section h2 {
 .float-right {
     float: right;
 }
-.feature-image {
+.profile-image {
     max-width: 400px;
+}
+.feature-image {
+    height: 400px;
+    width: 400px;
+    object-fit:cover;
+    border-radius: 20px;
 }
 .text-center {
     text-align: center;
