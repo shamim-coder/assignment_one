@@ -65,6 +65,7 @@ h1,h2,h3 {
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 100px;
+    padding: 80px 0;
 }
 #our-missions h1 {
     font-size: 48px;
@@ -93,6 +94,15 @@ h1,h2,h3 {
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 265px;
+    padding: 80px 0;
+}
+
+#our-project {
+    background-image: url(images/shapes/shape-10.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 250px;
+    padding: 80px 0;
 }
 
 
@@ -107,11 +117,18 @@ h1,h2,h3 {
 }
 
 footer {
-    text-align: center;
+    padding: 30px 0;
 }
 footer h2 {
     font-family: 'Lobster', cursive;
+    color: white;
+    font-weight: 500;
+    font-size: 36px;
+}
+footer span {
+    color: #FF5959;
 }
 footer p {
     font-family: 'Manrope', sans-serif;
+    color: #D9DBE1;
 }
