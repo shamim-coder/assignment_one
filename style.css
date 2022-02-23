@@ -9,8 +9,19 @@ p {
     font-size: 16px;
     color: #3E3E3E;
 }
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     color: #333333;
+}
+.bg-cyan {
+    background-color: rgba(79, 157, 166, 0.212);
+}.bg-red {
+    background-color: rgba(255, 89, 89, 0.212);
+}.bg-yellow {
+    background-color: #fff4d6;
+}.bg-black {
+    background-color: #0B0D17;
 }
 .full-width {
     width: 80%;
@@ -22,9 +33,16 @@ h1,h2,h3 {
 .section-inline {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .f-size-18 {
     font-size: 18px;
+}
+header {
+    padding: 70px 0;
+}
+.scroll-down img {
+    width: 30px;
 }
 .main-title {
     border-left-width: 4px;
@@ -38,9 +56,12 @@ h1,h2,h3 {
     font-size: 55px;
     font-weight: 500;
     margin: 0;
+    line-height: 38px;
 }
 .main-title h1 span {
     color: #FFAD5A;
+    display: block;
+    margin-top: 30px;
 }
 .mission-btn {
     background-image: linear-gradient(#FF5959, #FF3939);
@@ -49,29 +70,35 @@ h1,h2,h3 {
     font-size: 16px;
     text-decoration: none;
     color: #ffffff;
+    display: inline-block;
+    margin-top: 20px;
 }
-
+section h2 {
+    font-size: 36px;
+    margin: 0;
+}
 .float-right {
     float: right;
 }
 .feature-image {
-    max-width: 420px;
+    max-width: 400px;
 }
 .text-center {
     text-align: center;
 }
-#our-missions {
+#my-missions {
     background-image: url(images/shapes/dots-bg-2.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 100px;
-    padding: 80px 0;
+    padding-bottom: 70px;
 }
-#our-missions h1 {
+#my-missions h1 {
     font-size: 48px;
     color: #13103a;
+    margin-top: 0;
 }
-#our-missions h1 span {
+#my-missions h1 span, #contact-us h2 span {
     color: #FFAD5A;
 }
 .mission:first-child {
@@ -81,43 +108,68 @@ h1,h2,h3 {
     margin: 10px;
     padding: 25px;
     border-radius: 20px;
+    width: 30%;
+    height: 400px;
 }
 .mission h3 {
-    font-size: 25px;
+    font-size: 24px;
 }
 .mission img {
     width: 150px;
 }
-
 #about-me {
     background-image: url(images/shapes/bg-shapes.png);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 265px;
-    padding: 80px 0;
+    padding-bottom: 70px;
 }
-
-#our-project {
+.right-feature {
+    width: 60%;
+}
+#my-project {
     background-image: url(images/shapes/shape-10.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 250px;
-    padding: 80px 0;
+    padding-bottom: 70px;
 }
-
-
-.bg-cyan {
-    background-color: rgba(79, 157, 166, 0.212);
-}.bg-red {
-    background-color: rgba(255, 89, 89, 0.212);
-}.bg-yellow {
-    background-color: #fff4d6;
-}.bg-black {
-    background-color: #0B0D17;
+#contact-us {
+    background-image: url(images/shapes/dots-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 150px;
 }
-
+#contact-us h2 {
+    font-size: 36px;
+    color: #13103a;
+}
+.contact-left img {
+    max-width: 450px;
+}
+.contact-form input[type=text], .contact-form input[type=email], .contact-form textarea {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 25px;
+    border: navajowhite;
+    border-bottom: 1px solid gray;
+    font-size: 16px;
+}
+.contact-form input:focus, textarea {
+    outline: none;
+}
+.submit-btn {
+    background-image: linear-gradient(#FF5959, #FF3939);
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
 footer {
     padding: 30px 0;
+    margin-top: 70px;
 }
 footer h2 {
     font-family: 'Lobster', cursive;
@@ -131,4 +183,5 @@ footer span {
 footer p {
     font-family: 'Manrope', sans-serif;
     color: #D9DBE1;
+    font-size: 14px;
 }
