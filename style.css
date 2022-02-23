@@ -5,6 +5,10 @@ body {
 img {
     width: 100%;
 }
+p {
+    font-size: 16px;
+}
+
 .full-width {
     width: 80%;
     margin: auto;
@@ -16,12 +20,71 @@ img {
     display: flex;
     align-items: center;
 }
+.f-size-18 {
+    font-size: 18px;
+}
+.main-title {
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-image-source: linear-gradient(#FF5959, #FF3939);
+    border-image-slice: 1;
+    padding-left: 10px;
+}
 .main-title h1 {
     font-family: 'Yeseva One', cursive;
+    font-size: 55px;
+    color: #333;
+    font-weight: 500;
+    margin: 0;
+}
+.main-title h1 span {
+    color: #FFAD5A;
+}
+.mission-btn {
+    background-image: linear-gradient(#FF5959, #FF3939);
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
 }
 
-.feature-bd-cyan {
-    background-color: #4F9DA6;
+.float-right {
+    float: right;
+}
+.feature-image {
+    max-width: 420px;
+}
+.text-center {
+    text-align: center;
+}
+#our-missions h1 {
+    font-size: 48px;
+    color: #13103a;
+}
+#our-missions h1 span {
+    color: #FFAD5A;
+}
+.mission:first-child {
+    margin-left: 0;
+}
+.mission {
+    margin: 10px;
+    padding: 25px;
+    border-radius: 20px;
+}
+.mission h3 {
+    font-size: 25px;
+}
+.mission img {
+    width: 150px;
+}
+.bg-cyan {
+    background-color: rgba(79, 157, 166, 0.212);
+}.bg-red {
+    background-color: rgba(255, 89, 89, 0.212);
+}.bg-yellow {
+    background-color: rgb(255, 244, 214);
 }
 
 footer {
