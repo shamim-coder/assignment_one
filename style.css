@@ -7,8 +7,11 @@ img {
 }
 p {
     font-size: 16px;
+    color: #3E3E3E;
 }
-
+h1,h2,h3 {
+    color: #333333;
+}
 .full-width {
     width: 80%;
     margin: auto;
@@ -33,7 +36,6 @@ p {
 .main-title h1 {
     font-family: 'Yeseva One', cursive;
     font-size: 55px;
-    color: #333;
     font-weight: 500;
     margin: 0;
 }
@@ -58,6 +60,12 @@ p {
 .text-center {
     text-align: center;
 }
+#our-missions {
+    background-image: url(images/shapes/dots-bg-2.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100px;
+}
 #our-missions h1 {
     font-size: 48px;
     color: #13103a;
@@ -79,12 +87,23 @@ p {
 .mission img {
     width: 150px;
 }
+
+#about-me {
+    background-image: url(images/shapes/bg-shapes.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 265px;
+}
+
+
 .bg-cyan {
     background-color: rgba(79, 157, 166, 0.212);
 }.bg-red {
     background-color: rgba(255, 89, 89, 0.212);
 }.bg-yellow {
-    background-color: rgb(255, 244, 214);
+    background-color: #fff4d6;
+}.bg-black {
+    background-color: #0B0D17;
 }
 
 footer {
